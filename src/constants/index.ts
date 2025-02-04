@@ -31,7 +31,12 @@ import {
   carrent,
   jobit,
   tripguide,
+  expressjs,
   threejs,
+  java,
+  resume,
+  drug,
+  
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -55,17 +60,14 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+ 
 ];
 
 const technologies: TTechnology[] = [
@@ -78,16 +80,21 @@ const technologies: TTechnology[] = [
     icon: css,
   },
   {
+    name: "Java",
+    icon: java,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Express JS",
+    icon: expressjs,
   },
   {
     name: "Redux Toolkit",
@@ -105,77 +112,65 @@ const technologies: TTechnology[] = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+ 
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+ 
+  
 ];
 
-const experiences: TExperience[] = [
+const skills: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "JavaScript",
+    icon: javascript,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "React.js ",
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
+    title: "Express js",
+    icon: expressjs,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    
   },
+  {
+    title: "MongoDb ",
+    icon: mongodb,
+    iconBg: "#383E56",
+    
+  },
+  {
+    title: "Node js",
+    icon: nodejs,
+    iconBg: "#E6DEDD",
+    
+  },
+  {
+    title: "Html ",
+    icon: html,
+    iconBg: "#383E56",
+    
+  },
+  {
+    title: "Css",
+    icon: css,
+    iconBg: "#E6DEDD",
+    
+  },
+  {
+    title: "Java ",
+    icon: java,
+    iconBg: "#383E56",
+    
+  },
+  
 ];
 
 const testimonials: TTestimonial[] = [
@@ -207,9 +202,9 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Protien Bind",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+          "ProteinBind is an AI-powered drug research platform built with the MERN stack to streamline molecular discovery and analysis. It features AI-driven molecule generation, a molecule bank for storage, an AI chat assistant for research queries, and group chat for collaboration, making drug research more efficient and interactive. 🚀",
     tags: [
       {
         name: "react",
@@ -221,54 +216,46 @@ const projects: TProject[] = [
       },
       {
         name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
         color: "pink-text-gradient",
       },
+      {
+        name: "Node",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: drug,
+    sourceCodeLink: "https://github.com/rtprashant/drug-research-frontend",
   },
   {
-    name: "Job IT",
+    name: "Resume Builder",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Resume Builder is a user-friendly tool that allows users to customize templates, preview changes in real-time, and download resumes as high-quality PDFs. With an intuitive form interface, users can easily input their personal details, experience, and skills to create a professional resume effortlessly. It ensures a efficient experinece to job-seekers.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "contextapi",
         color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: resume,
+    sourceCodeLink: "https://github.com/rtprashant/ResumeBuilder",
   },
+  
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, skills, testimonials, projects };

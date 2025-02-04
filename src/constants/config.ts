@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Prashant Kumar Rajput",
+    fullName: "Prashant",
+    email: "prashantrajput827327@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Prashant",
+    p: ["I Build intuitive and scalable web applications with React, MERN, and modern technologies to create seamless user experiences"],
   },
   contact: {
     p: "Get in touch",
@@ -67,15 +67,12 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I am a Full Stack Developer passionate about building scalable, high-performance web applications. With expertise in MongoDB, Express.js, React.js, and Node.js, I specialize in creating dynamic, full-stack solutions with a seamless user experience.
+      I have experience working with Redux Toolkit, Tailwind CSS, APIs, authentication, and cloud services to develop responsive and efficient applications. From resume builders and e-commerce platforms to AI-integrated tools and workflow automation, I enjoy tackling complex challenges and optimizing performance.`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: "I have hands on practice on ",
+      h2: "MY Skills",
     },
     feedbacks: {
       p: "What others say",

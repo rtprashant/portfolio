@@ -7,6 +7,7 @@ import { SectionWrapper } from "../../hoc";
 import { slideIn } from "../../utils/motion";
 import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
+import { instagram, linkedin } from "../../assets";
 
 const INITIAL_STATE = Object.fromEntries(
   Object.keys(config.contact.form).map((input) => [input, ""])
@@ -74,6 +75,14 @@ const Contact = () => {
         className="bg-black-100 flex-[0.75] rounded-2xl p-8"
       >
         <Header useMotion={false} {...config.contact} />
+        <div className="flex gap-10  justify-center">
+          <a href="https://www.linkedin.com/in/prashantrt"><img src={linkedin} className="w-20 h-20 rounded-full"alt="" /></a>
+          <a href="https://www.instagram.com/_rtprashant/"><img src={instagram} className="w-16 h-16 mt-2"alt="" /></a>
+          
+        </div>
+        <div className="flex justify-center mt-5">
+          Or
+        </div>
 
         <form
           // @ts-expect-error
